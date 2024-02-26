@@ -5,8 +5,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-  border: 0;
+
   font-family: roboto;
   color: #505f98;
 }
@@ -68,4 +67,151 @@ nav h1 {
   width: 100%;
   display: flex;
   gap: 50px;
+}
+.powerfull {
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+
+}
+.text-right {
+  width: 50%;
+}
+
+.img-left {
+  width: 50%;
+}
+.text-right-buttom {
+  display: flex;
+  gap: 30px;
+}
+.img-left img{
+  width: 540px;
+  height: 524.31px;
+}
+.text1 {
+  color: #6F7CB2;
+}
+
+.price{
+  font-family: sans-serif;
+  background-color: #f2f5ff;
+  text-align: center;
+  height: 500px;
+}
+
+h3,h4{
+  font-weight: 300;
+}
+
+#purchase{
+  color: white;
+  width: 189px;
+  height: 31.81px;
+  background-color: #111b47;
+}
+
+footer{ 
+  width: 100%;
+  margin-top: -20px;
+  background-color: #e7ecff;
+
+}
+
+.container-footer{
+  display: inline;
+  background-color: #e7ecff;
+  text-align: center;
+}
+footer p {
+  margin-left: 20px;
+  display: inline;
+  width: 20%;
+  color: #939ea4;
+ 
+}
+footer h1{
+  display: inline-flex;
+  color: #37447e;
+  width: 20%;
+  margin-left: 39%;
+}
+
+footer button{
+  margin-left: 13%;
+  margin-top: 50px;
+}
+
+footer hr{
+  width: 85%;
+  opacity: 70%;
+}
+footer .navbar a{
+  color: #929ecc;
+      margin: 0 10px;
+      text-decoration: none;
+      width: 30%;
+}
+
+.container_contact{
+  display: flex;
+  justify-content: space-between;
+
+}
+.social{
+  color: #b0b8bc;
+  gap: 20px;
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 200px;
+}
+
+.image-info-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 445px;
+  height: 312px;
+  top: 3193.93px;
+  left: 209px;
+  margin-right: 30px;
+  border-radius: 5px;
+
+}
+
+.info {
+  width: 445px;
+  height: 230px;
+  top: 3124px;
+  left: 826px;
+}
+
+.info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.info p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.info button {
+  background-color: rgb(49, 0, 128);
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
