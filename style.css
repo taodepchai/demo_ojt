@@ -1,0 +1,71 @@
+
+.price{
+    font-family: sans-serif;
+    background-color: #f2f5ff;
+    text-align: center;
+    height: 500px;
+}
+
+h3,h4{
+    font-weight: 300;
+}
+
+#purchase{
+    color: white;
+    width: 189px;
+    height: 31.81px;
+    background-color: #111b47;
+}
+
+footer{ 
+    width: 100%;
+    margin-top: -20px;
+    background-color: #e7ecff;
+
+}
+
+.container-footer{
+    display: inline;
+    background-color: #e7ecff;
+    text-align: center;
+}
+footer p {
+    margin-left: 20px;
+    display: inline;
+    width: 20%;
+    color: #939ea4;
+   
+}
+footer h1{
+    display: inline-flex;
+    color: #37447e;
+    width: 20%;
+    margin-left: 39%;
+}
+
+footer button{
+    margin-left: 13%;
+    margin-top: 50px;
+}
+
+footer hr{
+    width: 85%;
+    opacity: 70%;
+}
+footer .navbar a{
+    color: #929ecc;
+        margin: 0 10px;
+        text-decoration: none;
+        width: 30%;
+}
+
+.container_contact{
+    display: flex;
+    justify-content: space-between;
+
+}
+ .social{
+    color: #b0b8bc;
+    gap: 20px;
+    display: flex;
+ }
