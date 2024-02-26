@@ -31,10 +31,11 @@ nav h1 {
   color: #37447e;
 }
 .hero {
-  margin: 15px;
+ 
   display: flex;
   align-items: center;
   margin-top: 35vh;
+  justify-content: center;
 }
 .hero h1 {
   color: #111b47;
@@ -80,9 +81,6 @@ nav h1 {
   width: 50%;
 }
 
-.img-left {
-  width: 50%;
-}
 .text-right-buttom {
   display: flex;
   gap: 30px;
